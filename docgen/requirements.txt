@@ -1,0 +1,25 @@
+# Core dependencies
+openai
+pytest
+numpy
+tqdm
+instructor
+python-dotenv
+
+# Weaviate and related
+weaviate-client>=4.5.0
+firecrawl-py
+
+# Docker related
+docker
+docker-compose>=1.29.2,<2.0.0
+dockerpty
+websocket-client
+
+# Langchain packages
+langchain-core>=0.3.15
+langchain>=0.3.7
+langchain-community>=0.0.27
+
+# Local swarm package
+-e ../swarm
